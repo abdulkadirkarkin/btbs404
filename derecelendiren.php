@@ -68,10 +68,7 @@
     if(isset($_SESSION['isim']) && isset($_SESSION['soyisim']) && isset($_SESSION['ogrno'])) {
         echo "Hoşgeldiniz: " . $_SESSION['isim'] . " " . $_SESSION['soyisim'] . " " . $_SESSION['ogrno'] . " ";
     } else {
-        $_SESSION['isim'] = "Ahmet";
-        $_SESSION['soyisim'] = "Yılmaz";
-        $_SESSION['ogrno'] = "12345";
-        echo "Hoşgeldiniz: " . $_SESSION['isim'] . " " . $_SESSION['soyisim'] . " " . $_SESSION['ogrno'] . " ";
+        
     }
 
     $servername = "localhost";
