@@ -1,0 +1,57 @@
+body {
+    background-image: url(//lms23-24spring.emu.edu.tr/pluginfile.php/1/theme_space/loginbg/1714028976/bgound_image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	
+	
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 55px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow-x: auto; 
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.container form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333333;
+    font-weight: bold;
+    text-align: left;
+}
+
+.container form input[type="text"],
+.container form input[type="password"] {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.container form input[type="submit"] {
+    width: 100%;
+    padding: 10px; 
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
